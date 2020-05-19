@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css"/>
+  <title>Event Brite</title>
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+  
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">The Event Brite</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+    <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Créer Evénement</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Compte
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a href="#" class="dropdown-item">Se connecter</a>
+                  <a href="#" class="dropdown-item">S'inscrire</a>
+                  <a href="#" class="dropdown-item">Déconnexion</a>
+                  <a href="#" class="dropdown-item">Modifier compte</a>
+      
+      </li>
+
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Molécules
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a href="#" class="dropdown-item">Navbar</a>
+                  <a href="#" class="dropdown-item">Footer</a>
+                  <a href="#" class="dropdown-item">Authentification_form</a>
+                  <a href="#" class="dropdown-item">Card</a>
+                  <a href="#" class="dropdown-item">Comment</a>
+                  <a href="#" class="dropdown-item">List</a>
+          <div class="dropdown-divider"></div>
+        
+
+      </li>
+
+
+  </div>
+</nav>
+
+
+
+
+
+   <div class= "container-fluid">
+      <div class="my-3 p-3 bg-white rounded box-shadow">
+        <h1 class="border-bottom border-gray pb-2 mb-0">Tous les commentaires</h1>
+        <div class="media text-muted pt-3">
+          <img data-src="holder.js/32x32?theme=thumb&amp;bg=007bff&amp;fg=007bff&amp;size=1" alt="32x32" class="mr-2 rounded" style="width: 32px; height: 32px;" src="https://previews.123rf.com/images/salamatik/salamatik1801/salamatik180100019/92979836-ic%C3%B4ne-de-visage-anonyme-de-profil-personne-silhouette-grise-avatar-par-d%C3%A9faut-masculin-photo-placeholder-.jpg" data-holder-rendered="true">
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@username</strong><small class="d-block text-gray-dark">12:03</small>
+            Je suis content !!!
+          </p>
+        </div>
+        <div class="media text-muted pt-3">
+          <img data-src="holder.js/32x32?theme=thumb&amp;bg=007bff&amp;fg=007bff&amp;size=1" alt="32x32" class="mr-2 rounded" style="width: 32px; height: 32px;" src="https://previews.123rf.com/images/salamatik/salamatik1801/salamatik180100019/92979836-ic%C3%B4ne-de-visage-anonyme-de-profil-personne-silhouette-grise-avatar-par-d%C3%A9faut-masculin-photo-placeholder-.jpg" data-holder-rendered="true">
+          <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+            <strong class="d-block text-gray-dark">@username</strong><small class="d-block text-gray-dark">12:07</small>
+            Je ne suis pas content.
+          </p>
+        </div>
+        
+        <div class="media text-muted pt-3">
+          <img data-src="holder.js/32x32?theme=thumb&amp;bg=007bff&amp;fg=007bff&amp;size=1" alt="32x32" class="mr-2 rounded" style="width: 32px; height: 32px;" src="https://previews.123rf.com/images/salamatik/salamatik1801/salamatik180100019/92979836-ic%C3%B4ne-de-visage-anonyme-de-profil-personne-silhouette-grise-avatar-par-d%C3%A9faut-masculin-photo-placeholder-.jpg" data-holder-rendered="true">
+          <form class="form-horizontal" action="" accept-charset="UTF-8" method="post">
+            <ul>
+              <textarea type="" class="form-control" placeholder="Ecris ton commentaire"></textarea>
+            </ul>
+            <ul>
+              <button name="button" type="submit"  class="btn btn-primary">Envoyer</button>
+            </ul>
+          </form>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
